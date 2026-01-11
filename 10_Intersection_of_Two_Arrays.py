@@ -6,4 +6,4 @@ class Solution(object):
                 result.append(nums1[i])
         return result
 
-print(Solution().intersection([1, 2, 2, 1,3,4], [2, 2,3,4]))  # Output: [2]
+print(Solution().intersection([1, 2, 2, 1,3,4], [2, 2,3,41]))  # Output: [2]
