@@ -15,4 +15,4 @@ class Solution:
         
         return total == num
 
-print(Solution().checkPerfectNumber(28))  # True
+print(Solution().checkPerfectNumber(28))  # True36
