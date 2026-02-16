@@ -14,4 +14,4 @@ class Solution(object):
         
         return [duplicate, missing]
 
-print(Solution().findErrorNums([1,2,2,4])
+print(Solution().findErrorNums([1,2,2,4]))
