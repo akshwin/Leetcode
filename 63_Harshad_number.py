@@ -7,4 +7,4 @@ class Solution(object):
             return sum
         else:
             return -1
-print(Solution().sumOfTheDigitsOfHarshadNumber(10)) # 1
+print(Solution().sumOfTheDigitsOfHarshadNumber(10)) # 164
