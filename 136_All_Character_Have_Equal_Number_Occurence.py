@@ -1,0 +1,8 @@
+from collections import Counter
+class Solution(object):
+    def areOccurrencesEqual(self, s):
+        count = Counter(s)
+
+        return len((set(count.values()))) ==1
+        
+print(Solution().areOccurrencesEqual("abacbc"))
