@@ -5,4 +5,5 @@ class Solution(object):
         for a , b in paths:
             if b not in starts:
                 return b
-        
+
+print(Solution().destCity([["London","New York"],["New York","Lima"],["Lima","Sao Paulo"]]))
