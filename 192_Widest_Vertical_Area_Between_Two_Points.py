@@ -1,6 +1,6 @@
 class Solution(object):
     def maxWidthOfVerticalArea(self, points):
-        x = sorted(points[0] for point in points)
+        x = sorted(point[0] for point in points)
         
         ans = 0 
         for i in range(1,len(x)):
